@@ -8,7 +8,8 @@
  * Return: void
  */
 
-char *_strcat(char *dest, char *src) {
+char *_strcat(char *dest, char *src)
+{
     char *p = dest;
     while (*p) {
         p++;
